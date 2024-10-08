@@ -1,0 +1,27 @@
+{
+  "name": "solana-hello-world-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "esrun src/index.test.ts",
+    "start": "esrun src/index.ts",
+    "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@digitak/esrun": "^3.2.24",
+    "@types/node": "^20.5.7",
+    "esrun": "^3.2.26",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@solana-developers/helpers": "^2.5.2",
+    "@solana/web3.js": "^1.95.3",
+    "dotenv": "^16.4.5"
+  }
+}
